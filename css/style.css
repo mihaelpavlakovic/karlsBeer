@@ -1,0 +1,400 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigacija */
+.navbar-brand img {
+  height: 60px;
+}
+
+/* Uvod */
+.img-class img {
+  width: 100%;
+  height: 65vh;
+}
+
+.text {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.text-opis h1 {
+  margin-bottom: 30px;
+  font-size: 3.5rem;
+}
+
+.text a {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #e01f26;
+  color: #fff;
+}
+
+.text-opis {
+  padding: 0 30px;
+}
+
+/* O nama */
+#o-nama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.heading {
+  letter-spacing: 1px;
+  margin: 100px 0 50px 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h2, .heading h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: #202020;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.description {
+  text-align: center;
+  margin: 0 250px 20px 250px;
+}
+
+.carousel {
+  width: 50%;
+}
+
+.carousel .carousel-item {
+  height: 100%;
+}
+
+.subheading {
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheading h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: #808080;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Ponuda */
+.container{
+	box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	border-radius: 5px;
+  width: 700px;
+  height: 420px;
+  margin: 25px 25px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-details {
+  height: 420px;
+  width: 60%;
+}
+
+.product-image {
+  width: 40%;
+  height: 100%;
+}
+
+.product-details h1 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.product-details p {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.product-details .control {
+  text-align: center;
+}
+
+.product-image img {
+  height: 40%;
+  width: 30%;
+  margin-top: 50px;
+}
+
+#ponuda h2 {
+  margin-top: 100px;
+}
+
+/* Promocija */
+#promocija h2 {
+  margin-top: 100px;
+}
+
+/* Testimonials */
+#testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.testimonial-heading {
+  letter-spacing: 1px;
+  margin: 100px 0 30px 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-heading h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: #202020;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.testimonial-heading span {
+  font-size: 1.3rem;
+  color: #252525;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.testimonial-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.testimonial-box {
+  width: 500px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.profile {
+   display: flex;
+   align-items: center;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-user strong {
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.name-user span {
+  color: #979797;
+  font-size: 0.8rem;
+}
+
+.reviews {
+  color: #f9d71c
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-comment p {
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.3s;
+}
+
+/* Lokacija */
+#lokacija {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#lokacija .row {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+/* Kontakt */
+#kontakt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form-row {
+  margin-bottom: 20px;
+}
+/* Footer */
+#footer {
+  background-color: #252525;
+  color: #fff;
+}
+
+@media(max-width: 1060px) {
+  /* Uvod */
+  .img-class img {
+    height: 45vh;
+  }
+
+  .testimonial-box {
+    width: 45%;
+    padding: 10px;
+  }
+
+  /* Lokacija */
+  #lokacija .row {
+    width: 90%;
+  }
+}
+
+@media(max-width: 790px) {
+  .heading {
+    margin: 50px 0 20px 0;
+    padding: 10px 20px;
+  }
+  .heading h2, .heading h3 {
+    font-size: 1.4rem;
+    padding: 10px 20px;
+  }
+  .subheading {
+    margin: 10px 0px;
+    padding: 10px 10px;
+  }
+  .subheading h4 {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  /* Uvod */
+  .img-class img {
+    height: 45vh;
+  }
+  .text {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .text-opis h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  .text a {
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+  .text-opis {
+    padding: 0 15px;
+  }
+
+  /* O nama */
+  .description {
+    margin: 0 20px 20px 20px;
+  }
+  .carousel {
+    width: 90%;
+  }
+
+  /* Ponuda */
+  .container{
+    width: 100%;
+    height: 100%;
+    margin: 30px 10px;
+  }
+  .product-details {
+    height: 100%;
+    width: 100%;
+  }
+  .product-image {
+    width: 100%;
+    height: 100%;
+  }
+  .product-details h1 {
+    padding: 20px 0;
+  }
+  .product-details p {
+    padding: 0 15px;
+  }
+  .product-image img {
+    margin-top: 25px;
+  }
+  #ponuda h2 {
+    margin-top: 100px;
+  }
+  .product-details .control {
+    margin-bottom: 15px;
+  }
+
+  /* Preporuke */
+  .testimonial-box {
+    width: 100%;
+  }
+  .testimonial-heading h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Lokacija */
+  #lokacija .row {
+    width: 100%;
+  }
+}
+
+@media(max-width: 390px) {
+  .box-top {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .reviews {
+    margin-top: 10px;
+  }
+
+  /* Uvod */
+  .img-class img {
+    height: 35vh;
+  }
+}

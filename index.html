@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karl's Beer</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./img/pintOfBeer.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+  <!-- Navigacija -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./img/logo.svg" alt="Logo od Pivovare Karl's Beer"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Početna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#o-nama">O nama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ponuda" tabindex="-1" aria-disabled="true">Ponuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#promocija" tabindex="-1" aria-disabled="true">Promocija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials" tabindex="-1" aria-disabled="true">Preporuke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#lokacija" tabindex="-1" aria-disabled="true">Lokacija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./kontakt.html" tabindex="-1" aria-disabled="true">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Uvod -->
+  <section id="uvod">
+    <div class="img-class">
+      <img src="./img/ccbkegs.png" alt="Pivovara Karl's Beer">
+    </div>
+    <div class="text">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="text-opis">
+          <h1>Pivovara s tradicijom</h1>
+          <p>Uz puno pažnje i truda donosimo Vam najbolje iz svijeta piva.</p>
+          <p>Pomno odabiremo i obrađujemo najbolje sastojke slada, kvasca, hmelja i vode, što ujedno pridonosi našem jedinstvenom okusu.</p>
+          <p>Hvala Vam na vašoj vjeri!</p>
+        </div>
+        <a class="btn" href="#o-nama">Pročitaj više</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- O nama -->
+  <section id="o-nama" class="container-fluid">
+    <div class="heading">
+      <h2>O nama</h2>
+    </div>
+    <div class="description">
+      <p>Karls' Beer pivovara je najuspješnija hrvatska pivovara. Osnovana je davne 1892. godine i od tada bilježi svakodnevni rast i razvoj s krajnjim ciljem postanka broj 1. pivovare čiji proizvodi će oduševljavati ljude diljem svijeta. Pod svojim okriljem okuplja poznate brendove kao što su Ožujsko, Staropramen, Beck’s, Stella Artois i Corona.</p>
+    </div>
+  </section>
+  <section class="container-fluid d-flex justify-content-center">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slika1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slika2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slika3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="o-nama" class="container-fluid">
+    <div class="heading">
+      <h3>Skladištenje</h3>
+    </div>
+    <div class="description">
+      <p>Posebnu pažnju pridonosimo skladištenju i čuvanju pive. U nastavku možete vidjeti neke od mjera koje poduzimamo kako bi u svakom trenutku imali ponuđenu najbolju kvalitetu pive.</p>
+    </div>
+    <div class="subheading">
+      <h4>1. Položaj</h4>
+    </div>
+    <div class="description">
+      <p>Za razliku od vina, koje zahtijeva horizontalni položaj čuvanja, pivo se drži u uspravnom položaju. Dva su razloga za ovo. Ukoliko je tekućina piva u konstantnom kontaktu s čepom, on može negativno utjecati na okus piva.</p>
+      <p>Još jedna činjenica ide u prilog vertikalnog držanja piva. Naime, u svakoj boci ima zraka, a u uspravnom položaju najmanji dio piva dodiruje taj zrak. Ukoliko bismo bocu položili horizontalno, veća površina piva bila bi u kontaktu sa zrakom, što bi dovelo i do veće oksidacije piva.</p>
+    </div>
+    <div class="subheading">
+      <h4>2. Temperatura</h4>
+    </div>
+    <div class="description">
+      <p>Svjetlost i toplina najveći su neprijatelji piva. Pivo je najbolje čuvati u hladnom prostoru, izvan dometa izvora topline. Pravilo je da se piva s većim postotkom alkohola čuvaju na višim temperaturama, a ona s manjim postotkom na nižim.</p>
+    </div>
+      <ul>
+        <li>Barleywine i tamna piva na 12 do 15 stupnjeva</li>
+        <li>Standardna Ale piva na 10 do 12 stupnjeva</li>
+        <li>Lageri, pilsneri i pšenična piva na 4 do 7 stupnjeva</li>
+      </ul>
+      <div class="description">
+        <p>Čak i ako ne pogodite točno ove temperature, nemojte brinuti. Taman i hladan prostor bit će dovoljni za čuvanje piva, najbitnije je da pivo nema iznenadnih izlaganja velikim vrućinama.</p>
+      </div>
+      <div class="subheading">
+      <h4>3. Svjetlost</h4>
+    </div>
+    <div class="description">
+      <p>Pivo ne voli svjetlost jer mu ona može promijeniti okus, zato su i pivske boce tamnije boje. Uslijed kontinuiranog izlaganje UV svjetlu, molekule hmelja se rastavljaju i povezuju s atomima sumpora čime se mijenja karakter piva i ono mijenja miris i aromu. Kako biste očuvali karakter piva, pohranite ga u prostor bez izvora svjetlosti, poput podruma ili hladnjaka.</p>
+    </div>
+    <div class="subheading">
+      <h4>4. Rok trajanja</h4>
+    </div>
+    <div class="description">
+      <p>Pasterizacija igra veliku ulogu u životnom vijeku piva. Procesom pasterizacije ubijaju se mikrobi u pivu čime mu se znatno produžuje rok trajanja. S druge strane, nepasterizirano pivo sadrži živi kvasac koji u neadekvatnim uvjetima čuvanja može utjecati na kvarenje piva, stoga se preporuča konzumirati ga unutar 30 dana. Još jedno pravilo kojim se možete voditi jest da se pivo s postotkom alkohola od 7% ili manje sigurno može konzumirati u roku godinu dana od punjenja. Jednom kad je pivo otvoreno, preporuča se da ga odmah popijete jer u trenutku otvaranja počinje hlapiti, odnosno gubiti sebi svojstvene mjehuriće.</p>
+    </div>
+  </section>
+
+  <!-- Ponuda -->
+  <section id="ponuda" class="container-fluid">
+    <div class="heading">
+      <h2>Ponuda Piva</h2>
+    </div>
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="container">
+        <div class="wrapper">
+          <div class="product-image d-flex justify-content-center align-items-center">
+            <img src="./img/staropramen.png" class="card-img-top" alt="...">
+          </div>
+          <div class="product-details d-flex justify-content-center flex-column">
+            <h1>Staropramen</h1>
+            <p class="information">Lagano pilsner lager pivo iznimne svježine, bogatog okusa te udjelom alkohola od 4%. Svojom uravnoteženom srednjom punoćom i blagim, ali odvažnim gorkim okusom koji polagano i ugodno nestaje, Praha by Staropramen rezervirana je za one željne drugačijeg piva.</p>
+            <div class="control">
+              <a class="btn btn-primary" href="https://www.staropramen.com/hr/our-beer/praha" target="_new">Vidi više</a>
+            </div> 
+          </div>
+        </div>
+      </div>	
+      <div class="container">
+        <div class="wrapper">
+          <div class="product-image d-flex justify-content-center align-items-center">
+            <img src="./img/stella.png" class="card-img-top" alt="...">
+          </div>
+          <div class="product-details d-flex justify-content-center flex-column">
+            <h1>Stella Artois</h1>
+            <p class="information">Sa svojom prekrasnom cvjetnom aromom, dobro uravnoteženom sladnom slatkoćom, svježom hmeljnom gorčinom i mekanim suhim završetkom, Stella Artois savršeno je pivo za uparivanje s hranom i prijateljima. Dobitnik Svjetske nagrade za pivo 2019. za najbolji svjetski svijet.</p>
+            <div class="control">
+              <a class="btn btn-primary" href="https://www.stellaartois.com/en_us/beers/stella-artois-lager.html" target="_new">Vidi više</a>
+            </div> 
+          </div>
+        </div>
+      </div>	
+      <div class="container">
+        <div class="wrapper">
+          <div class="product-image d-flex justify-content-center align-items-center">
+            <img src="./img/corona.png" class="card-img-top" alt="...">
+          </div>
+          <div class="product-details d-flex justify-content-center flex-column">
+            <h1>Corona</h1>
+            <p class="information">Rođena u Meksiku i odrasla na plaži, Corona je savršeni kompliment jednostavnim životnim užicima. Zlatne boje, laganog osvježavajućeg okusa i ikonične ručno oslikane bočice, prelivene svježe iscijeđenim limetom. Kad se živi lako, pivo je Corona.</p>
+            <div class="control">
+              <a class="btn btn-primary" href="https://www.corona.com/en" target="_new">Vidi više</a>
+            </div> 
+          </div>
+        </div>
+      </div>	
+      <div class="container">
+        <div class="wrapper">
+          <div class="product-image d-flex justify-content-center align-items-center">
+            <img src="./img/ozujsko.png" class="card-img-top" alt="...">
+          </div>
+          <div class="product-details d-flex justify-content-center flex-column">
+            <h1>Ožujsko</h1>
+            <p class="information">Pune zlatne boje, fine gorkaste arome i kompaktne pjene. Glava je Žujine obitelji pridruženi član svakog obiteljskog hladnjaka od 1892., a najbolje ju je servirati ohlađenu do plave termoetikete.</p>
+            <div class="control">
+              <a class="btn btn-primary" href="https://www.ozujsko.com/o-zuji/ozujsko-pivo/obitelj/" target="_new">Vidi više</a>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="promocija">
+    <div class="heading">
+      <h2>Promocija</h2>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="testimonial-heading">
+      <span>Komentari</span>
+      <h2>Klijenti Kažu</h2>
+    </div>
+    <div class="testimonial-box-container">
+      <div class="testimonial-box">
+        <div class="box-top">
+          <div class="profile">
+            <div class="name-user">
+              <strong>Petar Peric</strong>
+              <span>@petarperic</span>
+            </div>
+          </div>
+          <div class="reviews">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="client-comment">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ipsam, iusto ducimus odio tempore ab magni fuga repudiandae, libero quam cumque officia? Assumenda nihil repellendus eaque modi quidem, voluptatum saepe aliquid, aspernatur harum iusto soluta unde natus obcaecati ad odit nemo. Similique laborum tempore nobis eveniet amet, vero voluptatem iure.</p>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <div class="box-top">
+          <div class="profile">
+            <div class="name-user">
+              <strong>Petar Peric</strong>
+              <span>@petarperic</span>
+            </div>
+          </div>
+          <div class="reviews">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="client-comment">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ipsam, iusto ducimus odio tempore ab magni fuga repudiandae, libero quam cumque officia? Assumenda nihil repellendus eaque modi quidem, voluptatum saepe aliquid, aspernatur harum iusto soluta unde natus obcaecati ad odit nemo. Similique laborum tempore nobis eveniet amet, vero voluptatem iure.</p>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <div class="box-top">
+          <div class="profile">
+            <div class="name-user">
+              <strong>Petar Peric</strong>
+              <span>@petarperic</span>
+            </div>
+          </div>
+          <div class="reviews">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="client-comment">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ipsam, iusto ducimus odio tempore ab magni fuga repudiandae, libero quam cumque officia? Assumenda nihil repellendus eaque modi quidem, voluptatum saepe aliquid, aspernatur harum iusto soluta unde natus obcaecati ad odit nemo. Similique laborum tempore nobis eveniet amet, vero voluptatem iure.</p>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <div class="box-top">
+          <div class="profile">
+            <div class="name-user">
+              <strong>Petar Peric</strong>
+              <span>@petarperic</span>
+            </div>
+          </div>
+          <div class="reviews">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="client-comment">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ipsam, iusto ducimus odio tempore ab magni fuga repudiandae, libero quam cumque officia? Assumenda nihil repellendus eaque modi quidem, voluptatum saepe aliquid, aspernatur harum iusto soluta unde natus obcaecati ad odit nemo. Similique laborum tempore nobis eveniet amet, vero voluptatem iure.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Lokacija -->
+  <section id="lokacija" class="container-fluid">
+    <div class="heading">
+      <h2>Naša Lokacija</h2>
+    </div>   
+    <div class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.850237633451!2d14.4699966163392!3d45.33164657909976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a1af00e353d5%3A0xd62b8a271d984a13!2sKa%C4%8Djak%2C%2051000%2C%20Rijeka!5e0!3m2!1shr!2shr!4v1624707055874!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      &#169 2020 Copyright:
+      Karlo Carek, Odjel za informatiku
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
